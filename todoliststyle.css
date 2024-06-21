@@ -43,9 +43,10 @@ input{
 .todoapp button{
     border:none;
     outline:none;
-    padding:10px 10px;
+    /*padding:10px 10px;*/
+    padding:5px
     color:#fff;
-    font-size: 15px;
+    font-size: 14px;
     cursor: pointer;
     border-radius:15px;
 }
@@ -110,7 +111,15 @@ container {
     padding: 20px;
     text-align: center;
 }
-
+input {
+    flex: 1;
+    width: 65%;
+    border: none;
+    outline: none;
+    background: #e6e6fa;
+    padding: 10px;
+    font-size: 14px; /* Keep the text size consistent with the button text */
+    color: #333; /* Set text color to a darker shade for better contrast */
 input[type="text"],
 button {
     width: 80%; /* Adjust the width percentage as needed */
