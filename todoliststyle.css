@@ -105,3 +105,36 @@ button i.fa-check, button i.fa-trash {
     background-color: transparent;
     color:black;
 }
+container {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+button {
+    width: 80%; /* Adjust the width percentage as needed */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    input[type="text"],
+    button {
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    input[type="text"],
+    button {
+        width: 95%; /* Further adjust the width for even smaller screens */
+    }
+}
